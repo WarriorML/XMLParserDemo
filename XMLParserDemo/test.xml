@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<person>
+    <student>
+        <sid>100</sid>
+        <name>张三</name>
+        <sex>男</sex>
+        <age>26</age>
+    </student>
+    <student>
+        <sid>101</sid>
+        <name>小红</name>
+        <sex>女</sex>
+        <age>16</age>
+    </student>
+    <student>
+        <sid>102</sid>
+        <name>小华</name>
+        <sex>女</sex>
+        <age>20</age>
+    </student>
+</person>

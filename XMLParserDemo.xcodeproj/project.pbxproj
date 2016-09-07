@@ -15,6 +15,11 @@
 		020539461D7FA93D000FE629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020539441D7FA93D000FE629 /* LaunchScreen.storyboard */; };
 		020539511D7FA93D000FE629 /* XMLParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020539501D7FA93D000FE629 /* XMLParserDemoTests.m */; };
 		0205395C1D7FA93D000FE629 /* XMLParserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205395B1D7FA93D000FE629 /* XMLParserDemoUITests.m */; };
+		0205396A1D7FA98B000FE629 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 020539691D7FA98B000FE629 /* test.xml */; };
+		0205396D1D7FAB0A000FE629 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205396C1D7FAB0A000FE629 /* Student.m */; };
+		020539701D7FAB6D000FE629 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205396F1D7FAB6D000FE629 /* XMLParser.m */; };
+		02DF9B581D7FBB2F0080B436 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DF9B571D7FBB2F0080B436 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		02DF9B5A1D7FBB8A0080B436 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DF9B591D7FBB8A0080B436 /* libxml2.2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		020539571D7FA93D000FE629 /* XMLParserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLParserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0205395B1D7FA93D000FE629 /* XMLParserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserDemoUITests.m; sourceTree = "<group>"; };
 		0205395D1D7FA93D000FE629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020539691D7FA98B000FE629 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		0205396B1D7FAB0A000FE629 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0205396C1D7FAB0A000FE629 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0205396E1D7FAB6D000FE629 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		0205396F1D7FAB6D000FE629 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		02DF9B561D7FBB2F0080B436 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		02DF9B571D7FBB2F0080B436 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		02DF9B591D7FBB8A0080B436 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DF9B5A1D7FBB8A0080B436 /* libxml2.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,8 @@
 		0205392A1D7FA93D000FE629 = {
 			isa = PBXGroup;
 			children = (
+				02DF9B591D7FBB8A0080B436 /* libxml2.2.tbd */,
+				02DF9B551D7FBB2F0080B436 /* GDataXML */,
 				020539351D7FA93D000FE629 /* XMLParserDemo */,
 				0205394F1D7FA93D000FE629 /* XMLParserDemoTests */,
 				0205395A1D7FA93D000FE629 /* XMLParserDemoUITests */,
@@ -105,6 +121,11 @@
 				0205393A1D7FA93D000FE629 /* AppDelegate.m */,
 				0205393C1D7FA93D000FE629 /* ViewController.h */,
 				0205393D1D7FA93D000FE629 /* ViewController.m */,
+				0205396B1D7FAB0A000FE629 /* Student.h */,
+				0205396C1D7FAB0A000FE629 /* Student.m */,
+				0205396E1D7FAB6D000FE629 /* XMLParser.h */,
+				0205396F1D7FAB6D000FE629 /* XMLParser.m */,
+				020539691D7FA98B000FE629 /* test.xml */,
 				0205393F1D7FA93D000FE629 /* Main.storyboard */,
 				020539421D7FA93D000FE629 /* Assets.xcassets */,
 				020539441D7FA93D000FE629 /* LaunchScreen.storyboard */,
@@ -138,6 +159,15 @@
 				0205395D1D7FA93D000FE629 /* Info.plist */,
 			);
 			path = XMLParserDemoUITests;
+			sourceTree = "<group>";
+		};
+		02DF9B551D7FBB2F0080B436 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				02DF9B561D7FBB2F0080B436 /* GDataXMLNode.h */,
+				02DF9B571D7FBB2F0080B436 /* GDataXMLNode.m */,
+			);
+			path = GDataXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +276,7 @@
 				020539461D7FA93D000FE629 /* LaunchScreen.storyboard in Resources */,
 				020539431D7FA93D000FE629 /* Assets.xcassets in Resources */,
 				020539411D7FA93D000FE629 /* Main.storyboard in Resources */,
+				0205396A1D7FA98B000FE629 /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +304,9 @@
 				0205393E1D7FA93D000FE629 /* ViewController.m in Sources */,
 				0205393B1D7FA93D000FE629 /* AppDelegate.m in Sources */,
 				020539381D7FA93D000FE629 /* main.m in Sources */,
+				0205396D1D7FAB0A000FE629 /* Student.m in Sources */,
+				020539701D7FAB6D000FE629 /* XMLParser.m in Sources */,
+				02DF9B581D7FBB2F0080B436 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = XMLParserDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou100.XMLParserDemo;
@@ -424,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = XMLParserDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou100.XMLParserDemo;
@@ -496,6 +532,7 @@
 				020539621D7FA93D000FE629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		020539631D7FA93D000FE629 /* Build configuration list for PBXNativeTarget "XMLParserDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +541,7 @@
 				020539651D7FA93D000FE629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		020539661D7FA93D000FE629 /* Build configuration list for PBXNativeTarget "XMLParserDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +550,7 @@
 				020539681D7FA93D000FE629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
